@@ -88,16 +88,6 @@ bwcontrib.control.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 
 
 &emsp;&emsp;If there are two commands A and B, when the A command is issued and the vehicle has not completed the action required by the A command, the B command is issued, then the vehicle will judge what action should be run according to the priority of the AB command. If the A command has a higher priority than B, it will continue to run the A action and permanently discard the B command. If the priority of the B command is higher than A, the action of the A command is terminated, and the action of the B command is immediately executed. If A and B have the same priority, the action of the B command is executed.
 
-|  功能代码   | 功能描述  |
-|  ----  | ----  |
-| `F1`  | 自由平移：保持车头朝向不变，向任意角度平移行驶 |
-| `F2`  | 定向旋转：以指定速率原地旋转指定度数 |
-| `F3`  | 转速控制：控制小车原地自转速度与方向 |
-| `F4`  | 混合运动：自由平移与原地旋转同时进行，互相叠加 |
-| `F5`  | 刹车：车辆停止运动 |
-
-**F5 > F2 > F4 = F3 = F1**
-
 |  Function Code   | Function Description  |
 |  ----  | ----  |
 | F1  | Free panning: keep the head facing unchanged and pan at any angle |
