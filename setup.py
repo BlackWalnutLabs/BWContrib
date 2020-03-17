@@ -19,7 +19,7 @@ setup(
     url='https://blackwalnut.tech',
     author="AngelZheng",
     author_email='theangels373578008@gmail.com',
-    license='MIT',
+    license='Apache 2.0',
     keywords='bwcontrib',
     py_modules=['bwcontrib.control']
 )
