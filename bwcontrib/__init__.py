@@ -1,4 +1,4 @@
 #coding=utf-8
 
-import control.control as cl
+from bwcontrib import control as ctl
 
