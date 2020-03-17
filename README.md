@@ -101,7 +101,7 @@ bwcontrib.control.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 
 ## Change log
 
 * 2020.03.17:
-    * Changed `bwtricar` project  to` bwcontrib`
+    * Changed `bwtricar` project  to `bwcontrib`
     * Delete example
     * Delete speed gear
     * Remove `v1` series control instructions
