@@ -100,6 +100,8 @@ bwcontrib.control.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 
 
 ## 更新日志
 
+* 2020.03.18：
+    * 增加领航者控制文档 `Modbus` 协议说明
 * 2020.03.17：
     * `bwtricar` 项目更名为 `bwcontrib`
     * 删除样例
