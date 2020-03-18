@@ -23,7 +23,7 @@ import bwcontrib
 ## Initialization
 
 ``` python
-# 默认使用 'ttyTHS1' 串口
+# Using 'ttyTHS1' as default
 bwcontrib.control.init()
 ```
 
