@@ -100,6 +100,8 @@ bwcontrib.control.sendCommandDirectlyWithoutJSON(bytes(json.dumps({'o': 0, 'v': 
 
 ## Change log
 
+* 2020.07.08:
+    * Freely customize port number and baud rate
 * 2020.03.18：
     * Added `Modbus` protocol description to Navigator control document
 * 2020.03.17:
