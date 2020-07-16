@@ -30,7 +30,7 @@ currentAbsSpeed = {
 }
 
 interfaceDict = {
-    'UART': '/dev/ttyTHS1',
+    'UART': '/dev/ttyTHS',
     'USB': '/dev/ttyUSB'
 }
 
